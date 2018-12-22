@@ -15,11 +15,13 @@ Process
  1. Install UserLand and ConnectBot from Play Store
 
  2. Click on Debian to download and install a Debian Machine
+ 
+ 3. When the terminal start clone this repository.
 
- 3. Make the `openhab_install.sh` script executable.
+ 4. Make the `openhab_install.sh` script executable.
 
         chmod +x openhab_install.sh
 
- 4. Run the script with root privilege.
+ 5. Run the script with root privilege.
 
         sudo bash openhab_install.sh
