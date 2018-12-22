@@ -25,3 +25,5 @@ Process
  5. Run the script with root privilege.
 
         sudo bash openhab_install.sh
+
+ 6. If there were no errors, start OpenHAB and enjoy!
