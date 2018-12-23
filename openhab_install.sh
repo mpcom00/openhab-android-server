@@ -1,5 +1,5 @@
 apt-get update
-apt-get install wget apt-transport-https gnupg -y
+apt-get install wget apt-transport-https gnupg apt-utils -y
 apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0x219BD9C9
 wget -qO - 'https://bintray.com/user/downloadSubjectPublicKey?username=openhab' | apt-key add -
 echo 'deb http://repos.azulsystems.com/debian stable main' | tee /etc/apt/sources.list.d/zulu.list
